@@ -36,7 +36,7 @@ class SendingWorker implements Runnable{
 		/*open directory to reach files for transfer */
 		try{
 			
-			directory = new File("/home/nikola/PhoneXFR");
+			directory = new File("/home/USER/LOCALFOLDER");
 			System.out.println("File assigned");
 			
 			
