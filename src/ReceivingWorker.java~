@@ -41,7 +41,7 @@ class ReceivingWorker implements Runnable{
 		/*open directory to store received files */
 		try{
 			
-			directory = new File("/home/nikola/PhoneReceived");
+			directory = new File("/home/USER/LOCALFOLDER");
 			System.out.println("File assigned");
 			
 			if(!directory.exists()){
